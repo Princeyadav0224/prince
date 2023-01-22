@@ -1,0 +1,127 @@
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.row {
+    padding: 1em 1em;
+}
+
+.row.primary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+    margin: 6px;
+}
+
+h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+}
+
+.btm,
+input {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.btm {
+    background-color: goldenrod;
+}
+
+div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.social i {
+    color: #10d924;
+}
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+
+.footer-menu {
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a {
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover,
+.social i:hover {
+    color: black;
+}
+
+.copyright p {
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.good {
+    background-color: black;
+    color: white;
+    padding: 9px 0px 20px 0;
+}
+
+.photo {
+    border-radius: 100px;
+    margin: -390px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 85px) {
+    .row.primary {
+        grid-template-columns: 1fr;
+    }
+}
+
+.btm:hover {
+    color: #d91010;
+    background-color: rgba(0, 255, 255, 0.577);
+    font-weight: bold;
+}
+
+.sub:hover {
+    color: rgb(195, 36, 36);
+    background-color: rgb(216, 213, 16);
+    font-weight: bold;
+}
+
+.num:hover {
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.396);
+}
